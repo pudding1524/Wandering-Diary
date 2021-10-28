@@ -3,31 +3,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
+using UnityEngine.UI;
 
 public class Light_Switch : MonoBehaviour
 {
 
-    [SerializeField] private Light2D Into_Night;
+    [Header("時間")]
+    public Image Time_Line;
 
+    [Header("圖片")]
+    public Sprite sunny, raining, night;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public static Light_Switch Instance;
+    
+    [SerializeField] public Light2D Into_Night;
+
+    private void Awake()
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Into_Night.intensity = 1f;
-        }
+        Instance = this;
+        Time_Line.sprite = sunny;
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    public void Light_Night()
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Into_Night.intensity = 0.5f;
-        }
-    }
-
-    private void Light_Trigger()
-    {
-        //Into_Night.intensity = 0.5f;
+        Into_Night.intensity = 0.5f;
+        Time_Line.sprite = night;
     }
 }
