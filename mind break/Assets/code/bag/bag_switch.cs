@@ -9,7 +9,7 @@ public class bag_switch : MonoBehaviour
     //public GameObject Bag_Canvas;
     public GameObject _select;
     [SerializeField] private Button button;
-
+List<Button>() =
     private void Start()
     {
         _select.GetComponent<Button>().Select();
@@ -26,7 +26,7 @@ public class bag_switch : MonoBehaviour
 
     private void Canvas_Open()
     {
-        //button = bag.transform.GetChild(0).GetComponent<Button>();
-        //button.Select();
+        button = bag.transform.GetChild(0).GetComponent<Button>();
+        button.Select();
     }
 }
