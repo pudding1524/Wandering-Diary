@@ -14,7 +14,7 @@ public class GhostChase : MonoBehaviour
     public Transform MaxPos;
     public Transform MinPos;
 
-    public string SceneLoad;
+    public GameObject gameover;
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +48,8 @@ public class GhostChase : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneLoad);
+            gameover.SetActive(true);
+            Time.timeScale = 0f;
         }   
     }
 

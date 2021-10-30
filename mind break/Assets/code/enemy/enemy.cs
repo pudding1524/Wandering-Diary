@@ -15,7 +15,7 @@ public class enemy : MonoBehaviour
     private float waitTime;
     public float startWaitTime;
 
-    public string SceneLoad;
+    public GameObject gameover;
 
 
 
@@ -39,7 +39,8 @@ public class enemy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneLoad);
+            gameover.SetActive(true);
+            Time.timeScale = 0f;
         }   
     }
 }
