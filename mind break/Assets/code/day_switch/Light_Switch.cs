@@ -22,6 +22,7 @@ public class Light_Switch : MonoBehaviour
     {
         Instance = this;
         Time_Line.sprite = sunny;
+        Time.timeScale = 1f;
     }
 
     public void Light_Night()

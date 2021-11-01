@@ -52,6 +52,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\buttonTest\TestBagMenu.cs" />
      <Compile Include="Assets\code\dialog\DialogySystem.cs" />
      <Compile Include="Assets\code\dialog\TalkButton.cs" />
      <Compile Include="Assets\code\enemy\Timer.cs" />
@@ -67,7 +68,6 @@
      <Compile Include="Assets\code\day_switch\test.cs" />
      <Compile Include="Assets\code\bag\bag_switch.cs" />
      <Compile Include="Assets\code\place\libraryTriger.cs" />
-     <Compile Include="Assets\buttonTest\TestBagMenu.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

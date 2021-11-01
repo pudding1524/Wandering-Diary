@@ -411,7 +411,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 99671676}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2020459361}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &99671676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1485,7 +1497,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.042535067, y: -0.600239}
+  m_Offset: {x: 0.042535067, y: -1.133574}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1496,7 +1508,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3135324, y: 0.49076402}
+  m_Size: {x: 1.3135324, y: 0.3446446}
   m_EdgeRadius: 0
 --- !u!61 &521591607
 BoxCollider2D:
@@ -1511,7 +1523,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.020976424, y: 0.12316847}
+  m_Offset: {x: -0.020483375, y: -0.519756}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1522,7 +1534,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4540145, y: 1.3367987}
+  m_Size: {x: 2.930805, y: 0.8692168}
   m_EdgeRadius: 0
 --- !u!212 &521591608
 SpriteRenderer:
@@ -2315,18 +2327,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00904271, y: -1.0049565}
+  m_Offset: {x: 0, y: 0.5571829}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.1201459, y: 4.56}
-    newSize: {x: 0.39, y: 0.48}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.6875, y: 2.625}
+    newSize: {x: 0.6875, y: 2.625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.91552955, y: 2.489913}
+  m_Size: {x: 0.6875, y: 1.1143658}
   m_EdgeRadius: 0
 --- !u!95 &958847606
 Animator:
@@ -2340,7 +2352,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: cdc469f94b16dc64884b3dc9f8071623, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -2423,13 +2435,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2670239617892046226, guid: 6e0c6c787ee47224eaf567af8377cab3,
+  m_Sprite: {fileID: -6259555270486089439, guid: 56dae90bcf3eebb4387a70b11088bf4d,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.39, y: 0.48}
+  m_Size: {x: 0.6875, y: 2.625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2443,8 +2455,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958847604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: -0.7, z: -1}
+  m_LocalScale: {x: 1, y: 0.9, z: 1}
   m_Children:
   - {fileID: 1348548093}
   - {fileID: 1327672925}
@@ -2873,7 +2885,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1254361851}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1397377260}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1254361851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2978,8 +3002,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327672923}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2, y: 0.5, z: 1}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 0.1, y: 1.0555556, z: 1}
+  m_LocalScale: {x: 1, y: 1.1111112, z: 1}
   m_Children: []
   m_Father: {fileID: 958847610}
   m_RootOrder: 1
@@ -3062,8 +3086,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348548090}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalPosition: {x: 0, y: 0.7777778, z: -2}
+  m_LocalScale: {x: 2.5, y: 2.777778, z: 1}
   m_Children: []
   m_Father: {fileID: 958847610}
   m_RootOrder: 0
