@@ -8,6 +8,8 @@ public class bag_switch : MonoBehaviour
     public GameObject bag;
     //public GameObject Bag_Canvas;
     public GameObject _select;
+
+    [SerializeField] private bool canvas_bool;
     [SerializeField] private Button button;
 
     private void Start()
@@ -28,5 +30,10 @@ public class bag_switch : MonoBehaviour
     {
         button = bag.transform.GetChild(0).GetComponent<Button>();
         button.Select();
+    }
+
+    public void timecale_normal()
+    {
+        Time.timeScale = 1f;
     }
 }
