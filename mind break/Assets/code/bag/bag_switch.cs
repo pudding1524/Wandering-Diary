@@ -14,22 +14,22 @@ public class bag_switch : MonoBehaviour
 
     private void Start()
     {
-        _select.GetComponent<Button>().Select();
+        //_select.GetComponent<Button>().Select();
     }
     void Update()
+    {
+        Canvas_Open();
+    }
+
+    private void Canvas_Open()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
             bag.SetActive(true);
             Time.timeScale = 0f;
-            Canvas_Open();
+            //button = bag.transform.GetChild(0).GetComponent<Button>();
+            //button.Select();
         }
-    }
-
-    private void Canvas_Open()
-    {
-        button = bag.transform.GetChild(0).GetComponent<Button>();
-        button.Select();
     }
 
     public void timecale_normal()

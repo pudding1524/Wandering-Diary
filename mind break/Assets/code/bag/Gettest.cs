@@ -4,11 +4,27 @@ using UnityEngine;
 
 public class Gettest : MonoBehaviour
 {
+    public item thisGameObject;
+    public Inventory Bag;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            all_object.Instance.vege();
+            AddNewItem();
+            Destroy(gameObject);
+        }
+    }
+
+    public void AddNewItem()
+    {
+        if (!Bag.itemList.Contains(thisGameObject))
+        {
+            Bag.itemList.Add(thisGameObject);
+        }
+        else
+        {
+            thisGameObject.count += 1;
         }
     }
 }

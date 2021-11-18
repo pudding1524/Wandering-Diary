@@ -37,23 +37,31 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\buttonTest\TestBagMenu.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\code\dialog\DialogySystem.cs" />
      <Compile Include="Assets\code\dialog\TalkButton.cs" />
+     <Compile Include="Assets\Scripts\Scriptable\BagData.cs" />
      <Compile Include="Assets\code\enemy\Timer.cs" />
      <Compile Include="Assets\code\day_switch\Light_Switch.cs" />
      <Compile Include="Assets\code\new_dialog\DialogueTrigger.cs" />
      <Compile Include="Assets\code\new_dialog\DialogueManager.cs" />
+     <Compile Include="Assets\code\bag\Gettest.cs" />
      <Compile Include="Assets\code\new_dialog\Dialogue.cs" />
+     <Compile Include="Assets\teacher\Slot.cs" />
      <Compile Include="Assets\code\dialog\Start_help.cs" />
      <Compile Include="Assets\code\enemy\enemy.cs" />
+     <Compile Include="Assets\teacher\playerCtrl.cs" />
+     <Compile Include="Assets\Scripts\BagManager.cs" />
      <Compile Include="Assets\code\enemy\Scene_button.cs" />
      <Compile Include="Assets\code\PlayerMovement.cs" />
      <Compile Include="Assets\code\enemy\GhostChase.cs" />
      <Compile Include="Assets\code\day_switch\test.cs" />
      <Compile Include="Assets\code\bag\bag_switch.cs" />
-     <Compile Include="Assets\code\bag\all_object.cs" />
+     <Compile Include="Assets\teacher\Item.cs" />
+     <Compile Include="Assets\teacher\BagUIManager.cs" />
      <Compile Include="Assets\code\place\libraryTriger.cs" />
-     <Compile Include="Assets\code\bag\Gettest.cs" />
+     <Compile Include="Assets\code\inventory\item.cs" />
+     <Compile Include="Assets\code\bag\Inventory.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
