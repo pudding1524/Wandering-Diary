@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gettest : MonoBehaviour
 {
-    public item thisGameObject;
+    public Item_ thisGameObject;
     public Inventory Bag;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -26,5 +26,7 @@ public class Gettest : MonoBehaviour
         {
             thisGameObject.count += 1;
         }
+
+        InventoryManager.RefreshItem();
     }
 }

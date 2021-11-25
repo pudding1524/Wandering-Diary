@@ -396,3 +396,33 @@ C# parse time         : 343ms
 candidates check time : 36ms
 console write time    : 1ms
 
+[api-updater (non-obsolete-error-filter)] 2021/11/25 下午 09:03:23 : Starting C:/Users/布丁/Desktop/2020.3.13f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 363.1693ms
+moved types parse time: 75ms
+candidates parse time : 2ms
+C# parse time         : 332ms
+candidates check time : 43ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 2021/11/25 下午 09:03:38 : Starting C:/Users/布丁/Desktop/2020.3.13f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 103.9463ms
+moved types parse time: 66ms
+candidates parse time : 2ms
+C# parse time         : 213ms
+candidates check time : 40ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 2021/11/25 下午 09:03:44 : Starting C:/Users/布丁/Desktop/2020.3.13f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 97.0411ms
+moved types parse time: 69ms
+candidates parse time : 3ms
+C# parse time         : 217ms
+candidates check time : 41ms
+console write time    : 0ms
+
