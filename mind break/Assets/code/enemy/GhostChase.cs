@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class GhostChase : MonoBehaviour
 {
@@ -40,7 +42,8 @@ public class GhostChase : MonoBehaviour
                 waitTime -= Time.deltaTime;
             }
         }
-
+        way_();
+        
 
     }
 
@@ -57,5 +60,19 @@ public class GhostChase : MonoBehaviour
     {
         Vector2 rndPos = new Vector2(Random.Range(MaxPos.position.x, MinPos.position.x), Random.Range(MaxPos.position.y, MinPos.position.y));
         return rndPos;
+    }
+
+    public void way_()
+    {
+        Vector3 ghostScale = transform.localScale;
+        
+        if (transform.position.x < movePos.position.x)
+        {
+            transform.localScale = new Vector3(2 ,2,1);
+        }
+        else
+        {
+            transform.localScale = new Vector3(-2 ,2,1);
+        }
     }
 }

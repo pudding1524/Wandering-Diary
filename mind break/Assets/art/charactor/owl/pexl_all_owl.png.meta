@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: a1f88959ad8616442b7d7ec20735f28e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 32352417824015763
+    second: pexl_all_owl_0
+  - first:
+      213: -8227665431676880913
+    second: pexl_all_owl_1
+  - first:
+      213: -848938719443979669
+    second: pexl_all_owl_2
+  - first:
+      213: -5575370221776766099
+    second: pexl_all_owl_3
+  - first:
+      213: 235235503261220452
+    second: pexl_all_owl_4
+  - first:
+      213: 8107376513601269866
+    second: pexl_all_owl_5
+  - first:
+      213: -6581326554093721909
+    second: pexl_all_owl_6
+  - first:
+      213: 3012596921435350993
+    second: pexl_all_owl_7
+  - first:
+      213: 7051536301892942202
+    second: pexl_all_owl_8
+  - first:
+      213: 2132107816802769705
+    second: pexl_all_owl_9
+  - first:
+      213: -5031972163354840007
+    second: pexl_all_owl_10
+  - first:
+      213: 415123662474905855
+    second: pexl_all_owl_11
+  - first:
+      213: -1509351755522797762
+    second: pexl_all_owl_12
+  - first:
+      213: 8107368734929500731
+    second: pexl_all_owl_13
+  - first:
+      213: 7069508317152411486
+    second: pexl_all_owl_14
+  - first:
+      213: -4394384367330959225
+    second: pexl_all_owl_15
+  - first:
+      213: -7474624568898534375
+    second: pexl_all_owl_16
+  - first:
+      213: 3336623819483301528
+    second: pexl_all_owl_17
+  - first:
+      213: -2538959627719233001
+    second: pexl_all_owl_18
+  - first:
+      213: -5266704112691990061
+    second: pexl_all_owl_19
+  - first:
+      213: 928150641021281268
+    second: pexl_all_owl_20
+  - first:
+      213: 876359965262500336
+    second: pexl_all_owl_21
+  - first:
+      213: 1004019175148098249
+    second: pexl_all_owl_22
+  - first:
+      213: -2748049625782001678
+    second: pexl_all_owl_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pexl_all_owl_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 717
+        width: 123
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39586044a50f27000800000000000000
+      internalID: 32352417824015763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 708
+        width: 132
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe77326c1e571dd80800000000000000
+      internalID: -8227665431676880913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_2
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 706
+        width: 140
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6277778bb6f734f0800000000000000
+      internalID: -848938719443979669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_3
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 706
+        width: 140
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b74b7a25e40a2b0800000000000000
+      internalID: -5575370221776766099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_4
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 708
+        width: 132
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ef172a179b34300800000000000000
+      internalID: 235235503261220452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_5
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 717
+        width: 123
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a607c810cff238070800000000000000
+      internalID: 8107376513601269866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 517
+        width: 123
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6e5605e5e6aa4a0800000000000000
+      internalID: -6581326554093721909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 508
+        width: 132
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7e69940f4eec920800000000000000
+      internalID: 3012596921435350993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_8
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 506
+        width: 140
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79b91be7e61cd160800000000000000
+      internalID: 7051536301892942202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_9
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 506
+        width: 140
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bdc5353c4c69d10800000000000000
+      internalID: 2132107816802769705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_10
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 508
+        width: 132
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934b49b5af7da2ab0800000000000000
+      internalID: -5031972163354840007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_11
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 517
+        width: 123
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff80da785c0d2c500800000000000000
+      internalID: 415123662474905855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 317
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f83f24394bd0be0800000000000000
+      internalID: -1509351755522797762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_13
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 310
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ab494e8e8238070800000000000000
+      internalID: 8107368734929500731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_14
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 308
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ff98ccb50fb1260800000000000000
+      internalID: 7069508317152411486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_15
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 308
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78065ba43b20403c0800000000000000
+      internalID: -4394384367330959225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_16
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 310
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914456d8e8cc44890800000000000000
+      internalID: -7474624568898534375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_17
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 317
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896c8658fa11e4e20800000000000000
+      internalID: 3336623819483301528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 117
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712bcbaabadc3ccd0800000000000000
+      internalID: -2538959627719233001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_19
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 110
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1b7e18388e8e6b0800000000000000
+      internalID: -5266704112691990061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_20
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 108
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3ef18271471ec00800000000000000
+      internalID: 928150641021281268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_21
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 108
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f158d8ceb4792c00800000000000000
+      internalID: 876359965262500336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_22
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 110
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2126ace1efeed00800000000000000
+      internalID: 1004019175148098249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pexl_all_owl_23
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 117
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff5e16dc67fcd9d0800000000000000
+      internalID: -2748049625782001678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

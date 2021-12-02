@@ -15,6 +15,6 @@ MonoBehaviour:
   itemName: "\u852C\u83DC"
   itemImage: {fileID: -1610813842045675387, guid: 0e61fb4270dbef54ab350a252da1efb0,
     type: 3}
-  count: 4
+  count: 2
   detail: "\u6E05\u8106\u53EF\u53E3\u7684\u852C\u83DC"
   equips: 1
