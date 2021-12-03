@@ -18,6 +18,13 @@ public class GhostChase : MonoBehaviour
 
     public GameObject gameover;
 
+    public static GhostChase Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -74,5 +81,23 @@ public class GhostChase : MonoBehaviour
         {
             transform.localScale = new Vector3(-2 ,2,1);
         }
+    }
+
+    public void Speed_Change_Up()
+    {
+        speed = 10;
+        if(transform.position.x < movePos.position.x)
+        {
+            movePos = MinPos;
+        }
+        else
+        {
+            movePos = MaxPos;
+        }
+    }
+
+    public void Speed_normal()
+    {
+        speed = 5;
     }
 }
