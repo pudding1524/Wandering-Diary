@@ -372,11 +372,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 014d59ca9d3c4244083f53106bb74d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy_Speed: 1
   speed: 5
-  startWaitTime: 0.5
+  startWaitTime: 1
+  waitTime: 0
   movePos: {fileID: 1442792392}
   MaxPos: {fileID: 1299363509}
   MinPos: {fileID: 1546108893}
+  target: {fileID: 0}
   gameover: {fileID: 230902640}
 --- !u!212 &266505889
 SpriteRenderer:
