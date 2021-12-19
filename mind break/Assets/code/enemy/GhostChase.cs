@@ -40,6 +40,8 @@ public class GhostChase : MonoBehaviour
         movePos.position = GetRandomPos();
     }
 
+
+
     // Update is called once per frame
     void Update()
     {
@@ -94,14 +96,14 @@ public class GhostChase : MonoBehaviour
     }
 
 
-    //private void OnTriggerEnter2D(Collider2D other)
-    //{
-    //    if (other.gameObject.CompareTag("Player"))
-    //    {
-    //        gameover.SetActive(true);
-    //        Time.timeScale = 0f;
-    //    }   
-    //}
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            gameover.SetActive(true);
+            Time.timeScale = 0f;
+        }   
+    }
 
     Vector2 GetRandomPos()
     {
