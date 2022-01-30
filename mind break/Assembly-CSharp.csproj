@@ -68,12 +68,15 @@
      <Compile Include="Assets\code\bag\Gettest.cs" />
      <Compile Include="Assets\final_scene\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
      <Compile Include="Assets\code\new_dialog\Dialogue.cs" />
+     <Compile Include="Assets\code\enemy\new_enemy\enemy_follow.cs" />
+     <Compile Include="Assets\code\enemy\button_gamover.cs" />
      <Compile Include="Assets\code\dialog\Start_help.cs" />
      <Compile Include="Assets\code\enemy\enemy.cs" />
      <Compile Include="Assets\code\inventory\Item_.cs" />
      <Compile Include="Assets\code\bag\Slot_.cs" />
      <Compile Include="Assets\code\enemy\Scene_button.cs" />
      <Compile Include="Assets\code\PlayerMovement.cs" />
+     <Compile Include="Assets\code\enemy\new_enemy\Enemy_Controller.cs" />
      <Compile Include="Assets\code\enemy\GhostChase.cs" />
      <Compile Include="Assets\final_scene\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
      <Compile Include="Assets\code\day_switch\test.cs" />
@@ -81,7 +84,6 @@
      <Compile Include="Assets\final_scene\GGEZ\PerfectPixelCamera\Demo\Assets\ZoomDemo.cs" />
      <Compile Include="Assets\code\enemy\Enemy_Detect.cs" />
      <Compile Include="Assets\code\place\libraryTriger.cs" />
-     <Compile Include="Assets\code\enemy\button_gamover.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
